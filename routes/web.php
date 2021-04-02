@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('auth.login');
 });
-
-Route::get('/dashboardAdmin', 'App\Http\Controllers\DashboardController@index')->name('dashboardAdmin');
-
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboardAdmin', function () {
 //     return view('dashboard.index');
 // })->name('dashboardAdmin');
