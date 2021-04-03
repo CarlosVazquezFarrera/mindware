@@ -1,4 +1,7 @@
 <x-guest-layout>
+    <div class="hidden fixed top-0 left-0 px-6 py-4 sm:block">
+        <a href="{{ route('login') }}" class="ml-4 text-sm text-gray-700 underline">Login</a>
+    </div>
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
